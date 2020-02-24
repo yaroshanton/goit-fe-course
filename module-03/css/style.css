@@ -110,10 +110,8 @@ p {
 /*BUTTON*/
 
 .button {
-    padding: 0;
+    padding: 17px 34px;
     margin: 0;
-    min-width: 160px;
-    height: 60px;
     color: #626262;
     font-size: 20px;
     background-color: transparent;
