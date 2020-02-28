@@ -32,20 +32,12 @@ p, h2, h3{
 .page_header_name {
     float: left;
     margin: 0;
-    margin-top: 35px;
     padding: 0;
-    font-size: 30px;
-    line-height: 32px;
-    color: #555252;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
-.page_header_name:first-letter {
-    font-size: 30px;
-    line-height: 32px;
-    color: #1abc9c;
-    font-weight: 800;
+.page_header_list {
+    padding: 0;
+    margin: 0;
 }
 
 .page_header_list li {
@@ -68,7 +60,6 @@ p, h2, h3{
 
 .page_header_nav {
     float: right;
-    margin-top: 20px;
 }
 
 .page_header_list a {
@@ -83,6 +74,7 @@ p, h2, h3{
 
 .page_header {
     margin-bottom: 90px;
+    margin-top: 42px;
 }
 
 /* PRODUCTS */
@@ -101,18 +93,25 @@ p, h2, h3{
 }
 
 .name:after {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
     display: block;
-    margin: 0 auto;
     content: "";
     height: 7px;
     width: 164px;
     background-color: #1abc9c;
-    margin-top: 26px;
+}
+
+.products {
+    position: relative;
 }
 
 .products_list {
     margin: 0;
     padding: 0;
+    margin-bottom: 100px;
 }
 
 .products_list_item {
@@ -127,7 +126,10 @@ p, h2, h3{
 
 .products_list_item:nth-child(4n+4){
     margin-right: 0;
+}
 
+.products_list_item:nth-child(-n + 4){
+    margin-bottom: 30px;
 }
 
 /* PRODUCT PRICE*/
@@ -142,19 +144,23 @@ p, h2, h3{
     text-transform: uppercase;
     font-weight: 700;
 
+    width: 255px;
+
 }
 
 .products_price p {
     float: left;
     padding-left: 15px;
     line-height: 40px;
-    width: 191px;
+    width: 185px;
 }
 
-.products_price span {
+.products_price p:nth-child(2) {
     float: right;
     line-height: 40px;
-    padding: 0 9px;
+    padding: 0;
+    text-align: center;
+    width: 55px;
     background-color: #8c8c8c;
 }
 
@@ -162,23 +168,20 @@ p, h2, h3{
     background-color: #1abc9c;
 }
 
-.products_list_item:hover>div>span {
+.products_list_item:hover>div>p:nth-child(2) {
     background-color: #7fd9c7;
-}
-
-.products_list_first {
-    margin-bottom: 30px;
-}
-
-.products_list_second {
-    margin-bottom: 100px;
 }
 
 /* NEWS */
 
+.news {
+    position: relative;
+}
+
 .news_list {
     padding: 0;
     margin: 0;
+    margin-bottom: 30px;
 }
 
 .news_list_item {
@@ -229,7 +232,6 @@ p, h2, h3{
     line-height: 26px;
     border-radius: 4px;
     border: none;
-    margin-bottom: 30px;
 }
 
 .button a {
