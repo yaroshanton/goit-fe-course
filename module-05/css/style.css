@@ -81,14 +81,41 @@ p, h2, h3{
 .girls {
     background: url(../img/girls.png) no-repeat center center;
     min-width: 100%;
-    height: 600px;
+    min-height: 600px;
     margin-bottom: 100px;
+}
+.girls_photo_area {
+    position: relative;
+    min-height: 600px;
+}
+
+.button {
+    width: 105px;
+    height: 105px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_prev {
+    position: absolute;
+    left: 0;
+    top: 230px;
+    background: #53a18f url(../img/prew.png) no-repeat center center;
+}
+.btn_after {
+    position: absolute;
+    right: 0;
+    top: 230px;
+    background: #53a18f url(../img/affter.png) no-repeat center center;
 }
 
 .girls_text {
-    padding-top: 200px;
+    position: absolute;
+    top: 44%;
+    left: 51%;
     width: 764px;
-    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    
 }
 
  .girls_text h2 {
@@ -108,65 +135,6 @@ p, h2, h3{
     text-align: left;
     font-weight: 300;
  }
- 
- .girls_text:before {
-     position: absolute;
-     display: block;
-     content: "";
-     width: 104px;
-     height: 104px;
-     background-color: rgb(78, 198, 171);
-    opacity: 0.651;
-     left: 0px;
-     top: 225px;
-     z-index: 1;
- }
-
-.girls_text:after{
-    position: absolute;
-    display: block;
-    content: "";
-    width: 104px;
-    height: 104px;
-    background-color: rgb(78, 198, 171);
-   opacity: 0.651;
-    right: 0px;
-    top: 225px;
-    z-index: 1;
- }
-
- .girls_photo_area {
-     position: relative;
-     width: 1110px;
-     margin: 0 auto;
-     height: 600px;
- } 
-
-.button {
-    color: transparent;
-    position: absolute;
-    top: 285px;
-    z-index: 2;
-}
-
-.button:after {
-    content: "";
-    display: block;
-    width: 22px;
-    height: 22px;
-    border-top: 2px solid #fff;
-    border-left: 2px solid #fff;
-}
-
-.btn_prev {
-    left: 35px;
-    transform: translateY(-100%) rotate(-45deg);
-}
-
-.btn_after {
-    right: 35px;
-    transform: translateY(-40%) rotate(135deg);
-}
 
 /* COLLECTIONS */
 
