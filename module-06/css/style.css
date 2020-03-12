@@ -290,20 +290,20 @@ p, h2, h3, h4{
 
 /* FOOTER */
 
-.wrapper {
+.wrapper_down {
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
     align-items: center;
 }
 
-.wrapper p {
+.wrapper_down p {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(51, 51, 51);
 }
 
-.wrapper a {
+.wrapper_down a {
     color: #f38181;
     text-decoration: none;
 }
