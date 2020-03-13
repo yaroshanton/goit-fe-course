@@ -334,6 +334,10 @@ p, h2, h3, h4{
     cursor: pointer;
 }
 
+.footer_form input::placeholder {
+    color: #e7e7e7;
+}
+
 
 
   
