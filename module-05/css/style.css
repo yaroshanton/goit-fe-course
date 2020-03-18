@@ -177,6 +177,7 @@ p, h2, h3{
     position: relative;
     list-style: none;
 }
+
 .model_list_item:not(:last-child) {
     margin-right: 30px;
 }
