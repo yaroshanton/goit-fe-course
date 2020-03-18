@@ -2,7 +2,7 @@
 body {
     font-family: 'Open Sans', 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.6;
 }
 
 img {   
@@ -82,7 +82,7 @@ p, h2, h3{
     background: url(../img/girls.png) no-repeat center center;
     min-width: 100%;
     min-height: 600px;
-    margin-bottom: 100px;
+    background-size: cover;
 }
 .girls_photo_area {
     position: relative;
@@ -140,6 +140,7 @@ p, h2, h3{
 
 .colection {
     position: relative;
+    margin-top: 100px;
 }
 
 .collection_name {
@@ -302,11 +303,14 @@ p, h2, h3{
 
 /* FOOTER */
 
+footer {
+    background-color: #323232;
+}
+
 .ground {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 1.6;
     color: #fefefe;
-    background-color: #323232;
     padding: 40px 0;
     text-align: center;
 }
