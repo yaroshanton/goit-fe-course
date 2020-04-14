@@ -42,7 +42,6 @@ p, h2, h3, h4{
 .menu {
     display: flex;
     justify-content: space-between;
-    width: 491px;
     padding: 0;
     margin: 0;
     margin-bottom: 125px;
@@ -51,6 +50,7 @@ p, h2, h3, h4{
 .menu_item {
     position: relative;
     display: inline-block;
+    margin-left: 55px;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     font-size: 14px;
@@ -310,16 +310,17 @@ p, h2, h3, h4{
 
 .footer_form input[type="email"] {
     width: 228px;
-    height: 40px;
+    height: 38px;
     border: 1px solid #e7e7e7;
     border-right: none ;
     color: #e7e7e7;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Roboto";
     font-style: italic;
     line-height: 1.6;
     padding: 14px 12px;
     margin: -3px;
+    outline: 0;
 }
 
 .footer_form input[type="submit"] {
