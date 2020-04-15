@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'),
+         url('fonts/crete-round-v8-latin-italic.woff2') format('woff2'),
+         url('fonts/crete-round-v8-latin-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fira Sans Extra Condensed Regular'),
+         url('fonts/fira-sans-extra-condensed-v4-latin-regular.woff2') format('woff2'), 
+         url('fonts/fira-sans-extra-condensed-v4-latin-regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Fira Sans Extra Condensed ExtraBold'),
+         url('fonts/fira-sans-extra-condensed-v4-latin-600.woff2') format('woff2'),
+         url('fonts/fira-sans-extra-condensed-v4-latin-600.woff') format('woff');
+}
+
+  
+body {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {   
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+p, h2, h3, h4{
+    margin: 0;
+}
+
+
+/* HEADER */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 125px;
+}
+
+.menu_item {
+    position: relative;
+    display: inline-block;
+    margin-left: 60px;
+    font-family: "Fira Sans Extra Condensed";
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.menu_item:hover {
+    transition: color .2s linear;
+    color: #fed136;
+}
+
+.active {
+    color: #fed136;;
+}
+
+/* MAIN WORDS */
+
+.main_words_one {
+    font-family: "Fira Sans Extra Condensed";
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.main_words_two {
+    font-family: "Crete Round";
+    font-style: italic;
+    font-size: 16px;
+    color: #777777;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+/* SERVICES */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.services_item {
+    width: 290px;
+}
+
+.services_item img {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.services_item h4 {
+    font-size: 18px;
+    font-family: "Fira Sans Extra Condensed";
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.services_item p {
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+}
+
+/* FOOTER */
+
+
+.footer {
+    background: url(../img/background.jpg) no-repeat center center;
+    min-width: 100%;
+    min-height: 676px;
+    background-size: cover;
+}
+.contact_us {
+    padding-top: 110px;
+}
+
+.contact_us_white {
+    color: #ffffff;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_form input[type="name"], [type="email"], [type="text"]{
+    width: 455px;
+    height: 50px;
+    color: #e7e7e7;
+    font-size: 14px;
+    font-family: "Fira Sans Extra Condensed";
+    text-transform: uppercase;
+    padding: 14px 12px;
+    margin-bottom: 29px;
+}
+
+input[type="name"]:valid{
+    outline-color: green;
+}
+
+input[type="email"]:valid{
+    outline-color: green;
+}
+
+input[type="text"]:valid{
+    outline-color: green;
+}
+
+input[type="email"],[type="name"],[type="text"]:invalid{
+    outline-color: red;
+}
+
+.footer_form input[type="text"] {
+    margin-bottom: 0;
+}
+
+.footer_form textarea {
+    width: 455px;
+    height: 208px;
+    border: 1px solid #7d7d7d;
+    color: #e7e7e7;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Fira Sans Extra Condensed";
+    padding: 14px 12px;
+    outline: 0;
+}
+
+.footer_form input::placeholder {
+    color: #e7e7e7;
+}
+
+.footer_form textarea::placeholder {
+    color: #e7e7e7;
+}
+
+.wrapper_down {
+    text-align: center;
+}
+
+.footer_form input[type="submit"] {
+    font-size: 18px;
+    font-family: "Fira Sans Extra Condensed";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 25px 47px;
+    border-radius: 2px;
+    background-color: #fed136;
+    border: none;
+    cursor: pointer;
+}
