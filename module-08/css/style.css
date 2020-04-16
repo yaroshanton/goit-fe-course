@@ -1,0 +1,214 @@
+body {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+*,
+*:hover,
+*:active {
+    box-sizing: border-box;
+}
+
+img {   
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+p, h2, h3{
+    margin: 0;
+}
+
+
+/* HEADER */
+
+.header {
+    background: url(../img/bg.png)no-repeat center center;
+    background-size: cover;
+    height: 552px;
+    margin-bottom: 65px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button:hover {
+    border: 2px solid #fff;
+    border-radius: 35px;
+    transition: linear .1s;
+}
+
+.buttons button {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 2;
+    text-decoration: none;
+    margin-top: 33px;
+    background-color: transparent;
+    border: none;
+    width: 90px;
+    height: 40px;
+    margin-bottom: 100px;
+}
+
+.login {
+    margin-right: 5px;
+}
+
+/* HEADER TEXT*/
+
+.header_text {
+    color: #fff;
+    text-align: center;
+}
+
+.top_text h1{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.header_text h2 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    line-height: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.header_text p {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.header_text button {
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 15px 45px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header_text button:hover {
+    background-color: rgb(255, 78, 80);
+    color: #fff;
+    border-color: rgb(255, 78, 80);
+    transition: linear .2s;
+}
+
+/* PARTNERS */
+
+.partners_photo {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.partners_list {
+    margin: 0;
+    margin-bottom: 35px;
+    list-style: none;
+    padding: 0;
+}
+
+.partners h2 {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.partners_img {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.partners_icon {
+    position: absolute;
+    bottom: 0;
+    left: 59%;
+}
+
+.partner_list_item {
+    margin-bottom: 30px;
+}
+
+.partner_list_item:hover {
+    transform: scale(1.1);
+    transition: linear .3s;
+}
+
+.partner_list_item h2 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+
+.partner_list_item p {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+    text-align: center;  
+    width: 215px;
+    margin: 0 auto;
+}
+
+.partners button {
+    color: #ff4e50;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 78, 80);
+    padding: 15px 45px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.partners button:hover {
+    background-color: rgb(255, 78, 80);
+    color: #fff;
+    border-color: rgb(255, 78, 80);
+    transition: linear .3s;
+}
+
+.footer_button {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+
+  
+
+
+  
+  
+  
+
