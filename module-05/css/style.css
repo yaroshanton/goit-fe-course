@@ -83,6 +83,7 @@ p, h2, h3{
     min-width: 100%;
     min-height: 600px;
     background-size: cover;
+    margin-bottom: 100px;
 }
 .girls_photo_area {
     position: relative;
@@ -148,7 +149,6 @@ p, h2, h3{
     line-height: 32px;
     color: #515151;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 120px;
 }
 
@@ -169,7 +169,6 @@ p, h2, h3{
     margin: 0;
     padding: 0;
     position: relative;
-    margin-bottom: 50px;
 }
 
 .model_list_item {
@@ -313,7 +312,7 @@ footer {
     line-height: 1.6;
     color: #fefefe;
     padding: 40px 0;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
 }
 
