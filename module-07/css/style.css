@@ -57,6 +57,7 @@ p, h2, h3, h4{
     display: flex;
     justify-content: space-between;
     margin-top: 39px;
+    margin-bottom: 125px;
 
 }
 
@@ -65,7 +66,6 @@ p, h2, h3, h4{
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    margin-bottom: 125px;
 }
 
 .menu_item {
@@ -150,7 +150,6 @@ p, h2, h3, h4{
 .footer {
     background: url(../img/background.jpg) no-repeat center center;
     min-width: 100%;
-    min-height: 676px;
     background-size: cover;
 }
 .contact_us {
@@ -170,6 +169,10 @@ p, h2, h3, h4{
 .left_side {
     display: flex;
     flex-direction: column;
+}
+
+.footer_form {
+    padding-bottom: 115px;
 }
 
 .footer_form input[type="name"], [type="email"], [type="text"]{
