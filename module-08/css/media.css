@@ -1,34 +1,27 @@
+@media (max-width: 766px) {
+    .buttons {
+        margin-bottom: 75px;
+    }
+}
+
+
 @media (min-width: 767px) {
     .container {
-        width: 748px;
-        padding: 0 50px;
+        width: 648px;
     }
 
     .top {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        padding-top: 30px;
-    }
-
-    .buttons button {
-        margin-top: 0;
+        margin-bottom: 70px;
     }
 
     .header_text h2 {
         font-size: 42px;
         width: 500px;
         margin: 0 auto;
-        margin-bottom: 35px;
-    }
-
-    .header_text p {
-        margin-bottom: 25px;
-    }
-
-    .header_text button {
-        font-size: 11px;
-        padding: 12px 16px;
+        margin-bottom: 30px;
     }
     
     .partners_list {
@@ -73,9 +66,5 @@
 
     .header_text p {
         font-size: 21px;
-        margin-bottom: 40px;
     }
-
-    ..header_text p {
-        margin-bottom: 52px;
 }
