@@ -1,0 +1,18 @@
+.wrapper-down {
+    margin-bottom: 12px;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+    @extend %flex;
+}
+
+.wrapper__text {
+    font-size: $standart-font-size;
+    font-family: $montserrat-font;
+    color: #333333;
+    padding-top: 12px;
+}
+
+.wrapper__site {
+    color: $red-color;
+    text-decoration: none;
+}

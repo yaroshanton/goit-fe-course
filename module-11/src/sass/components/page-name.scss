@@ -1,0 +1,21 @@
+.page {
+    text-align: center;
+}
+
+.page__name-one {
+    font-family: $kaushan-script-font;
+    font-size: 72px;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 65px;
+}
+
+.page__name-two {
+    font-size: 150px;
+    color: $white-color;
+    line-height: 140px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 125px;
+}

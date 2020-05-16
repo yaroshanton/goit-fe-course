@@ -1,0 +1,25 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'helpers/variables';
+@import 'helpers/placeholders';
+@import 'helpers/mixin';
+@import 'helpers/extras';
+@import 'normalize.scss';
+@import 'base.scss';
+
+
+/* COMPONENTS */
+
+@import 'components/container';
+@import 'components/header';
+@import 'components/page-name';
+@import 'components/page-button';
+@import 'components/main-words';
+@import 'components/services';
+@import 'components/our-team';
+@import 'components/social-list';
+@import 'components/body-card.scss';
+@import 'components/footer-wrapper';
+@import 'components/footer-form';

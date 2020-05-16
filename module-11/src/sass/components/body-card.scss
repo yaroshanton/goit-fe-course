@@ -1,0 +1,20 @@
+.card-body  {
+    text-align: center;
+}
+
+.card-body__name {
+    font-family: "Montserrat", sans-serif;
+    color: 333333;
+    font-size: $standart-font-size;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.card-body__job {
+    font-size: 15px;
+    font-family: $roboto-font;
+    color: $grey-color;
+    font-style: italic;
+    line-height: 1.6;
+}

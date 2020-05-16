@@ -1,0 +1,34 @@
+.card-list {
+    padding: 0;
+    height: 470px;
+    @include center-flex('all');
+}
+
+.card-list__item {
+    list-style: none;
+    width: 55px;
+    height: 55px;
+    @include center-flex('all');
+    background-color: $hover-color;
+    
+    &:not(:last-child) {
+        margin-right: 1px;
+    } 
+
+    &:hover {
+        transition: background .2s linear;
+        background-color: $red-color;
+    }
+
+    &:hover .card-list__img {
+        fill: $white-color;
+    }
+    
+}
+
+.card-list__img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    fill: $svg-color;
+}

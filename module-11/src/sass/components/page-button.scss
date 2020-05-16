@@ -1,0 +1,18 @@
+.page__button {
+    font-family: $montserrat-font;
+    font-size: $standart-font-size;
+    color: $white-color;
+    border: 2px solid $white-color;
+    padding: 12px 29px ;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 230px;
+
+    &:hover{
+        background-color: $red-color;
+        -webkit-transition: 1.4s linear;
+        -o-transition: 1.4s linear;
+        transition: 1.4s linear;
+    }
+}   

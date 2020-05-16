@@ -1,0 +1,31 @@
+.footer__form input[type="email"] {
+    width: 228px;
+    height: 41px;
+    border: 1px solid #e7e7e7;
+    border-right: none ;
+    color: #e7e7e7;
+    font-size: 13px;
+    font-family: $roboto-font;
+    font-style: italic;
+    line-height: 1.6;
+    padding: 14px 12px;
+    margin: -3px;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.footer__form input[type="submit"] {
+    font-size: $standart-font-size;
+    font-family: $montserrat-font;
+    color: $white-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 31px;
+    background-color: $card-background;
+    border: none;
+    cursor: pointer;
+}
+
+.footer__form input::placeholder {
+    color: #e7e7e7;
+}

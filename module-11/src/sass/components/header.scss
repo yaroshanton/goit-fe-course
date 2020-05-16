@@ -1,0 +1,71 @@
+.wrapper {
+    background: url(../images/mogobg.png) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.header {
+    padding-top: 39px;
+    margin-bottom: 180px;
+    @extend %flex; 
+}
+
+.header__nav {
+    padding: 0;
+    margin: 0;
+    @extend %flex;
+}
+
+.header__item {
+    position: relative;
+    display: inline-block;
+    margin-left: 55px;
+    font-family: $montserrat-font;
+    text-decoration: none;
+    font-size: $standart-font-size;
+    color: $white-color;
+    text-transform: uppercase;
+
+    &:hover {
+        transition: color .2s linear;
+        color: $hover-color; 
+    }
+
+    &:after{
+        position: absolute;
+        z-index: 1;
+        display: block;
+        left: 50%;
+        top: 28px;
+        transform: translateX(-50%);
+        content: "";
+        width: 100%;
+        height: 3px;
+        background-color: $hover-color;
+        opacity: 0;
+    }
+
+    &:hover:after{
+        transition: opacity .2s linear;
+        opacity: 1;
+    }
+}
+
+.header__item-social {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: $white-color;
+
+    &:hover {
+        fill: $hover-color;
+    }
+}
+
+.header__item--active {
+    color: $hover-color;
+
+    &:after {
+        opacity: 1;
+    }
+}
