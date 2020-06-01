@@ -12,33 +12,38 @@
     <header>
         <div class="wrapper">
             <div class="header container flex">
-                <div class="header__image">
-                    <a href="#">
-                        <img class="header__image-mogo" 
-                        srcset="img/mogo.png 89w, img/mogo@2x.png 176w"
-                        sizes="89px"
-                        src="img/mogo.png" alt="mogo" height="23">
-                    </a>
-                </div>
+                <a href="#">
+                    <img class="header__image-mogo" 
+                    srcset="img/mogo.png 89w, img/mogo@2x.png 176w"
+                    sizes="89px"
+                    src="img/mogo.png" alt="mogo" height="23">
+                </a>
                 <nav>
                     <ul class="header__nav flex">
-                        <a href="#" class="header__item header__item--active">About</a>
-                        <a href="#" class="header__item">Service</a>
-                        <a href="#" class="header__item">Work</a>
-                        <a href="#" class="header__item">Blog</a>
-                        <a href="#" class="header__item">Contact</a>
-                        <a href="#" class="header__item">
-                            <svg class="header__item-social">
-                                <use href="img/search.svg#search"></use>
-                            </svg>
-                        </a>
+                        <li href="#" class="header__item header__item--active"><a href="#">About</a></li>
+                        <li href="#" class="header__item"><a href="#">Service</a></li>
+                        <li href="#" class="header__item"><a href="#">Work</a></li>
+                        <li href="#" class="header__item"><a href="#">Blog</a></li>
+                        <li href="#" class="header__item"><a href="#">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+                <div>
+                    <ul class="flex header__extra">
+                        <li href="#" class="header__item">
+                            <a href="#">
+                                <svg class="header__item-social">
+                                    <use href="img/search.svg#search"></use>
+                                </svg>
+                            </a>
+                        </li>
                         <a href="#" class="header__item">
                             <svg class="header__item-social">
                                 <use href="img/search.svg#buy"></use>
                             </svg>
                         </a>
                     </ul>
-                </nav>
+                </div>
             </div>
             <div class="page container">
                 <h2 class="page__name-one">Creative Template</h2>

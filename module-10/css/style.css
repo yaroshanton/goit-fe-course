@@ -27,7 +27,6 @@ img {
 .wrapper {
     background: url(../img/mogobg.png) no-repeat center center;
     background-size: cover;
-    margin-bottom: 40px;
 }
 
 .header {
@@ -35,20 +34,39 @@ img {
     margin-bottom: 180px;
 }
 
+.header a  {
+    width: 591px;
+}
+
 .header__nav {
     padding: 0;
     margin: 0;
+    width: 521px;
+}
+
+.header__extra {
+    padding: 0;
+    margin: 0;
+    width: 80px;
+}
+
+.header__extra .header__item {
+    margin-left: 40px;
 }
 
 .header__item {
     position: relative;
     display: inline-block;
-    margin-left: 55px;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     font-size: 14px;
     color:#fff;
     text-transform: uppercase;
+}
+
+.header__item a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .header__item-social {
@@ -85,14 +103,14 @@ img {
     opacity: 1;
 }
 
-.header__item:hover {
+.header__item a:hover {
     -webkit-transition: color .2s linear;
     -o-transition: color .2s linear;
     transition: color .2s linear;
     color: #fce38a; 
 }
 
-.header__item--active {
+.header__item--active a {
     color: #fce38a;;
 }
 
@@ -105,6 +123,7 @@ img {
 
 .page {
     text-align: center;
+    height: 830px;
 }
 
 .page__name-one {
@@ -134,7 +153,6 @@ img {
     background-color: transparent;
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 230px;
 }   
 
 .page__button:hover{
